@@ -12,7 +12,7 @@ function toUpper(name: string): string {
     return name.toUpperCase();
 }
 
-// Takes multiple arguments of different types. 
+
 // Note: If a function doesn't return anything, TS infers 'void'.
 function signUpUser(email: string, name: string, password: string, age: number) {
     // Signup logic would go here
